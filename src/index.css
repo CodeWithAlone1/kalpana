@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&family=Space+Grotesk:wght@300;400;700&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Outfit", ui-sans-serif, system-ui, sans-serif;
+  --font-display: "Space Grotesk", sans-serif;
+  
+  --color-zoya-primary: #ec4899;
+  --color-zoya-secondary: #8b5cf6;
+  --color-zoya-accent: #06b6d4;
+  --color-zoya-dark: #0f172a;
+}
+
+@layer base {
+  body {
+    @apply bg-zoya-dark text-white overflow-hidden;
+    font-family: var(--font-sans);
+  }
+}
+
+@layer utilities {
+  .glow-pink {
+    box-shadow: 0 0 20px rgba(236, 72, 153, 0.4);
+  }
+  .glow-purple {
+    box-shadow: 0 0 20px rgba(139, 92, 246, 0.4);
+  }
+}
+
