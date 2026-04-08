@@ -1,0 +1,5 @@
+{
+  "name": "Kalpana AI असिस्टेंट",
+  "description": "एक रियल-टाइम, वॉयस-टू-वॉयस AI असिस्टेंट (Kalpana AI) जो हिंदी में बात करती है।",
+  "requestFramePermissions": ["microphone"]
+}
